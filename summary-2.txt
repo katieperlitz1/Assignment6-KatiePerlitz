@@ -1,0 +1,32 @@
+(Fill out this file with brief answers.)
+
+Name(s) and NetID(s) of group members: Katie Perlitz (kap256) and Sruti Gudapati (ssg98)
+
+Time spent on the assignment, in hours: 25
+
+Implementation strategy:
+    (describe how you went about implementing the assignment and how the work was divided between the partners.)
+    We both did our Dijkstra's algorithm on our own computer and compared our solutions. We created
+    our own test cases and when we got them to work, we shared them with each other. We worked
+    together on Part 1 Task 3 to come up with a solution, so once again we both had the same code
+    on our computers for that task. For seek, we individually created our dfsWalk algorithm and made
+    sure this minimum requirement to find the exit worked. Then we got together and discussed ways
+    to improve the algorithm -- we decided we wanted to reorder the neighbors we searched first from
+    the default order to the order of the closest neighbors to the exit. We implemented that on one
+    of our computers. For scram, we both created the default method to always make it to the exit.
+    Then together we talked about ways to use our extra steps to get more coins. We came up with a
+    solution that combined looking at neighbors and neighbors of neighbors to assure we collect all
+    the coins directly around us with realizing when we have no coins in close proximity and moving
+    to a random coin from there. We finalized this code on one of our computers.
+
+Testing strategy:
+    (how did you perform testing and design test cases to achieve coverage?)
+    We tested all of the special maps and ran through the -n 30 -s 1 tests to get our average. We
+    tested our Part 1 Task 1 by using maps that have cyclic nodes, nodes that point to itself, and
+    had a couple of other tests that had roundabout shortest paths to the target node.
+
+Known problems:
+    (are there any things that do not work?)
+    No
+
+Comments on the assignment:
